@@ -1,6 +1,7 @@
 package com.tus.wine.controller;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ import com.tus.wine.model.Wine;
 @RestController
 @RequestMapping("/wines")
 public class WineController {
+	ArrayList<Wine> wineList;
 
     @Autowired
     private WineRepository wineRepo;
@@ -43,9 +45,11 @@ public class WineController {
 
     // Create a new wine
     @PostMapping
-    public ResponseEntity<Wine> createWine(@RequestBody Wine wine) {
-    	 Wine savedWine = wineRepo.save(wine);
-         return ResponseEntity.status(HttpStatus.CREATED).body(savedWine);
+    public ResponseEntity<ArrayList<Wine>> createWine(@RequestBody ArrayList<Wine> wineList) {
+    	for(Wine wine: wineList) {
+	    	 wineRepo.save(wine);
+    	}
+    	return ResponseEntity.status(HttpStatus.CREATED).body(wineList);
     }
 
     // Update an existing wine
