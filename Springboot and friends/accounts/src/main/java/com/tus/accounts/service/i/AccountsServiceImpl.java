@@ -9,12 +9,12 @@ import com.tus.accounts.constants.AccountsConstants;
 import com.tus.accounts.entity.Accounts;
 import com.tus.accounts.entity.Customer;
 import com.tus.accounts.mapper.CustomerMapper;
+import com.tus.accounts.repository.AccountsRepository;
+import com.tus.accounts.repository.CustomerRepository;
 import com.tus.accounts.service.impl.IAccountsService;
 import com.tus.dto.CustomerDto;
 
 import lombok.AllArgsConstructor;
-import repository.AccountsRepository;
-import repository.CustomerRepository;
 
 @Service
 @AllArgsConstructor

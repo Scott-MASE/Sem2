@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/scott/Documents/GitHub/Sem2/Springboot and friends/.metadata/.plugins/org.eclipse.jdt.core
+825265600.index
+2381768571.index
+1865797976.index

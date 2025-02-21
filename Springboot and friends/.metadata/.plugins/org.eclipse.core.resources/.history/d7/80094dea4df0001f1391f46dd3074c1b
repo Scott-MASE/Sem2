@@ -1,0 +1,38 @@
+
+
+var rootURL = "http://localhost:8081/cars"
+
+var findAll = function() {
+	console.log("Find all")
+	$.ajax({
+		type: 'GET',
+		url: rootURL,
+		dataType: 'json',
+		success: renderList,
+		error: function(xhr, status, error) {
+			$(".details").remove();
+		}
+
+
+	})
+};
+
+var renderList = function(data){
+	$('.details').remove();
+	$.each(data, function(index, car){
+		let img='images/cars/' + car.image;
+		let htmlStr='<div class="scroll_cars"><img src="' + img + '" alt="Car">';
+		htmlStr+= '<p> '+car.model + ' <p>';
+		htmlStr+='<a id=' + car.id + ' href = "">';
+		htmlStr+= '<span class ="fa fa-info-circle fa-2x"></span>';
+		htmlStr+= '</a>';
+		htmlStr+= '</div>';
+		$('.list_cars_scroll').append(htmlStr);
+		
+	});
+	
+}
+
+$(document).ready(function(){
+	findAll();
+});
