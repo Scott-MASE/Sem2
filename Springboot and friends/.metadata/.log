@@ -289,3 +289,295 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-21 16:00:46.947
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-02-23 14:54:17.695 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/scott/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/scott/.eclipse_keyring -data /Users/scott/Documents/GitHub/Sem2/Springboot and friends
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-23 14:54:18.749
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-23 14:54:24.433
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-23 14:54:24.685
+!MESSAGE Logback config file: /Users/scott/Documents/GitHub/Sem2/Springboot and friends/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-23 14:54:24.897
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-23 14:54:24.897
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-23 14:54:25.204
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-23 14:54:25.204
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:27.782
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:27.822
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:27.843
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:27.964
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:27.968
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:54:28.246
+!MESSAGE Boot project ADDED: cars
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:54:28.247
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:54:28.269
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:54:28.269
+!MESSAGE Boot project ADDED: harrypotter
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-23 14:54:28.321
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/scott/Documents/GitHub/Sem2/Springboot and friends/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740322468319
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:54:28.322
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-23 14:54:28.328
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 52619
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:28.530
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Downloads/cars/src/main/resources/static/js/main.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:54:28.828
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Downloads/harrypotter/src/main/resources/static/js/main.js
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:56:39.058
+!MESSAGE Classpath changed for project: cars fresh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:56:39.061
+!MESSAGE Boot project ADDED: cars fresh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:57:00.162
+!MESSAGE Classpath changed for project: harrypotter fresh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-23 14:57:00.165
+!MESSAGE Boot project ADDED: harrypotter fresh
+
+!ENTRY org.eclipse.jface 2 0 2025-02-23 14:57:09.480
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-23 14:57:09.480
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:58:09.707
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:58:10.352
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:58:10.353
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-23 14:58:10.355
+!MESSAGE [Error]	Unexpected resource file:///Users/scott/Downloads/harrypotter/pom.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:58:10.445
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 14:58:10.447
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-23 14:58:10.450
+!MESSAGE [Error]	Unexpected resource file:///Users/scott/Downloads/cars/pom.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:04.657
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:04.659
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:05.656
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Documents/GitHub/Sem2/Springboot%20and%20friends/harrypotter%20fresh/src/main/resources/static/js/main.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:30.073
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:30.074
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-23 15:07:31.067
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Downloads/harrypotter/src/main/resources/static/js/main.js
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-23 17:17:13.619
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-02-24 20:28:09.722 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/scott/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/scott/.eclipse_keyring -data /Users/scott/Documents/GitHub/Sem2/Springboot and friends
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-24 20:28:10.769
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-24 20:28:16.478
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-24 20:28:16.788
+!MESSAGE Logback config file: /Users/scott/Documents/GitHub/Sem2/Springboot and friends/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-24 20:28:16.946
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-24 20:28:16.946
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-24 20:28:17.174
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-24 20:28:17.174
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:19.596
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:19.627
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:19.637
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.jface 2 0 2025-02-24 20:28:19.665
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-24 20:28:19.665
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.965
+!MESSAGE Boot project ADDED: cars
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.966
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.967
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.968
+!MESSAGE Boot project ADDED: cars fresh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.968
+!MESSAGE Boot project ADDED: harrypotter
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.969
+!MESSAGE Boot project ADDED: harrypotter fresh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-24 20:28:19.988
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/scott/Documents/GitHub/Sem2/Springboot and friends/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740428899987
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-24 20:28:19.990
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-24 20:28:20.005
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22443
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:20.262
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Downloads/harrypotter/src/main/resources/static/js/main.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:37.951
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:37.956
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-02-24 20:28:38.930
+!MESSAGE [Info]	No ES Library found for file: file:///Users/scott/Documents/GitHub/Sem2/Springboot%20and%20friends/harrypotter%20fresh/src/main/resources/static/js/main.js
+
+!ENTRY org.eclipse.jface 2 0 2025-02-24 20:30:06.631
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-24 20:30:06.632
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-02-24 20:56:24.094
+!MESSAGE [Error]	Unexpected resource file:///Users/scott/Documents/GitHub/Sem2/Springboot%20and%20friends/harrypotter%20fresh/src/main/java/com/tus/books/controller/BookController.java
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-25 09:26:20.835
+!MESSAGE The workspace will exit with unsaved changes in this session.
